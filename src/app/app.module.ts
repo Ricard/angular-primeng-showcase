@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ShowcaseComponent } from 'src/app/demo/showcase.component';
+import { ShowcaseComponent } from 'src/app/showcase/showcase.component';
 
 // Import PrimeNG modules
 import { AccordionModule } from 'primeng/accordion';

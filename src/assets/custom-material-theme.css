@@ -1,3 +1,9 @@
+/* 
+  EN DESUSO.
+  Esta seria una version compilada a CSS, a partir del theme SASS una vez se han editado las variables y ajustado el tema
+  Compilado sería la mejor forma de distribuir el tema
+*/
+
 :root {
     --surface-a: #ffffff;
     --surface-b: #fafafa;
@@ -7,6 +13,7 @@
     --surface-f: #ffffff;
     --text-color: rgba(0, 0, 0, 0.87);
     --text-color-secondary: rgba(0, 0, 0, 0.6);
+    /* --primary-color: yellow; */
     --primary-color: #004ab7;
     --primary-color-text: #ffffff;
     --font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial,
@@ -51,26 +58,26 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-  //   src: local("Roboto"), local("Roboto-Regular"),
-  //     url("./node_modules/primeng/resources/fonts/roboto-v20-latin-ext_latin-regular.woff2")
-  //       format("woff2"),
-  //     url("primeng/resources/fonts/roboto-v20-latin-ext_latin-regular.woff") format("woff");
+    /* // src: local("Roboto"), local("Roboto-Regular"),
+    //   url("./node_modules/primeng/resources/fonts/roboto-v20-latin-ext_latin-regular.woff2")
+    //     format("woff2"),
+    //   url("./node_modules/primeng/resources/fonts/roboto-v20-latin-ext_latin-regular.woff") format("woff"); */
   }
   @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
-  //   src: local("Roboto Medium"), local("Roboto-Medium"),
-  //     url("./assets/fonts/roboto-v20-latin-ext_latin-500.woff2") format("woff2"),
-  //     url("./assets/fonts/roboto-v20-latin-ext_latin-500.woff") format("woff");
+    /* // src: local("Roboto Medium"), local("Roboto-Medium"),
+    //   url("primeng/resources/fonts/roboto-v20-latin-ext_latin-500.woff2") format("woff2"),
+    //   url("primeng/resources/fonts/roboto-v20-latin-ext_latin-500.woff") format("woff"); */
   }
   @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-  //   src: local("Roboto Bold"), local("Roboto-Bold"),
+  /* //   src: local("Roboto Bold"), local("Roboto-Bold"),
   //     url("./assets/fonts/roboto-v20-latin-ext_latin-700.woff2") format("woff2"),
-  //     url("./assets/fonts/roboto-v20-latin-ext_latin-700.woff") format("woff");
+  //     url("./assets/fonts/roboto-v20-latin-ext_latin-700.woff") format("woff"); */
   }
   * {
     box-sizing: border-box;
